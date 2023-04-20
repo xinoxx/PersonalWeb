@@ -1,0 +1,106 @@
+/* 美术界面 */
+.art {
+    height: 85%;
+}
+
+.art .wrapper {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
+.art .wrapper .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    overflow: hidden;
+}
+
+.art .wrapper .nav ul {
+    padding: 15px 20px 0;
+    width: 70%;
+}
+
+.art .wrapper .nav ul li {
+    position: relative;
+    float: left;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.art .wrapper .nav .tagText {
+    padding: 20px 20px 0;
+    width: 30%;
+}
+
+.art .wrapper .nav .tagText .title {
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+}
+
+.art .wrapper .nav .tagText .info {
+    display: flex;
+    justify-content: right;
+    font-size: 12px;
+}
+
+.art .wrapper .box {
+    position: relative;
+    margin: 5px auto;
+    width: 1200px;
+    height: 500px;
+    background: url(../../images/art_page_bg.png) no-repeat;
+}
+
+.art .wrapper .box .display {
+    position: relative;
+    float: left;
+    margin: 20px 0 0 30px;
+    width: 300px;
+    height: 460px;
+    background-color: #000;
+}
+
+.art .wrapper .box .display img {
+    width: 300px;
+    height: 460px;
+    object-fit: contain;
+}
+
+.art .wrapper .box .display .display_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 460px;
+    background-image: url(../../images/art_page.png);
+}
+
+.art .wrapper .box .display .toggle button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 35px;
+    border: none;
+    appearance: none;
+    opacity: 0.3;
+    transition: all 0.5s;
+    background: url(../../images/art_page.png);
+    cursor: pointer;
+}
+
+.art .wrapper .box .display .toggle button:hover {
+    opacity: 1;
+}
+
+.art .wrapper .box .display .toggle .left {
+    left: 10px;
+    background-position: -465px -140px;
+}
+
+.art .wrapper .box .display .toggle .right {
+    right: 10px;
+    background-position: -490px -140px;
+}

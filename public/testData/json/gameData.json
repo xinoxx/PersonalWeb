@@ -1,0 +1,76 @@
+{
+    "gameNum": 1,
+    "gameList": [
+        {
+            "gid": 1,
+            "date": "20210330",
+            "gameLogo": "/testData/game/gameLogo.png",
+            "gameTitle": "/testData/game/gameTitle.png",
+            "gameControl": [
+                "/testData/game/gameControl1.png",
+                "/testData/game/gameControl2.png",
+                "/testData/game/gameControl3.png"
+            ],
+            "gameControlText": [
+                "使用WASD控制人物移动。",
+                "部分物品可通过鼠标触发特殊事件。",
+                "部分物品可以拖动。"
+            ],
+            "gameInfo": [
+                "2D像素解密小游戏","<br>",
+                "目前游戏只有一个关卡，包含三个小场景，玩家通过控制角色人物在不同场景内探索、解密收集物品。","<br>",
+                "开发语言：C#<br>目标平台：PC/Win10<br>游戏制作引擎：Unity2019.3.0a7<br>游戏编程软件：Visual Studio 2019<br>美术绘制软件：Asperite、Procreate<br>动画制作软件：Adobe AE CC 2019","<br>",
+                "BGM：<br>Healing Energy - 5×10 (オルゴール)<br>K.K. Lullaby (Radio)<br>K.K. Stroll (Radio)<br>Museum (Fish Exhibit 1)<br>Stale Cupcakes (Radio)","<br>",
+                "特别感谢：<br><a href=\"https://space.bilibili.com/370283072/?spm_id_from=333.999.0.0\" target=\"_blank\">M_Studio</a><br><a href=\"https://space.bilibili.com/448507900/?spm_id_from=333.999.0.0\" target=\"_blank\">BeaverJoe</a><br>跟着这两位学的游戏编程，真的有学到很多！！非常感谢"
+            ],
+            "gameNotice": [
+                "目前只能通过图片和视频的方式来展示，之后会尝试学习将游戏的exe文件嵌入网页QAQ。","<br>",
+                "这是我的毕设，算是我的第一个完整的独立开发的游戏项目，印象里从设计->美术->开发，现学现做大概花费了3-4个月，能力不足请多多包涵T T。"
+            ],
+            "pics": [
+                {
+                    "gpid": 1,
+                    "src":  "/testData/game/game1.png"
+                },
+                {
+                    "gpid": 2,
+                    "src":  "/testData/game/game2.png"
+                },
+                {
+                    "gpid": 3,
+                    "src":  "/testData/game/game3.png"
+                },
+                {
+                    "gpid": 4,
+                    "src":  "/testData/game/game4.png"
+                },
+                {
+                    "gpid": 5,
+                    "src":  "/testData/game/game5.png"
+                },
+                {
+                    "gpid": 6,
+                    "src":  "/testData/game/game6.png"
+                },
+                {
+                    "gpid": 7,
+                    "src":  "/testData/game/game7.png"
+                }
+            ],
+            "videos": [
+                {
+                    "gpid": 8,
+                    "src": "/testData/game/gameV1.mp4"
+                },
+                {
+                    "gpid": 9,
+                    "src": "/testData/game/gameV2.mp4"
+                },
+                {
+                    "gpid": 10,
+                    "src": "/testData/game/gameV3.mp4"
+                }
+            ]
+        }
+    ]
+}

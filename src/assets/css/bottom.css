@@ -1,0 +1,77 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    color: #dcdcdc;
+    background-color: #000;
+}
+
+.footer .wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer .link {
+    padding-top: 20px;
+    padding-left: 70px;
+    height: 70px;
+    line-height: 42px;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.footer .link li {
+    float: left;
+    margin-right: 10px;
+    width: 48px;
+    height: 42px;
+}
+
+.footer .link li a {
+    display: inline-block;
+    width: 48px;
+    height: 42px;
+    background-image: url(../images/icon.png);
+}
+
+.footer .link li:nth-child(1) a {
+    background-position: 0 -144px;
+}
+
+.footer .link li:nth-child(2) a {
+    background-position: -48px -144px;
+}
+
+.footer .link li:nth-child(3) a {
+    background-position: -96px -144px;
+}
+
+
+.footer .link li:nth-child(1) a:hover {
+    background-position: -144px -144px;
+}
+
+.footer .link li:nth-child(2) a:hover {
+    background-position: -192px -144px;
+}
+
+.footer .link li:nth-child(3) a:hover {
+    background-position: -240px -144px;
+}
+
+.footer span {
+    opacity: 0.5;
+}
+
+.footer .file {
+    float: right;
+    margin-right: 60px;
+    color: #fff;
+    opacity: 0.2;
+    transition: all 0.5s;
+}
+
+.footer .file:hover {
+    opacity: 1;
+}

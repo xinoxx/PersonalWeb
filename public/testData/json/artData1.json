@@ -1,0 +1,33 @@
+{
+    "orderType": "pl",
+    "picList": [
+        {
+            "pid": 1,
+            "src": "/testData/pic/20221118.png",
+            "thumbnail": "/testData/thumbnail/20221118_thumbnail.png", 
+            "type": ["PL"],
+            "date": "20221118"
+        },
+        {
+            "pid": 2,
+            "src": "/testData/pic/20230105.png", 
+            "thumbnail": "/testData/thumbnail/20230105_thumbnail.png",
+            "type": ["PL"],
+            "date": "20230105"
+        },
+        {
+            "pid": 3,
+            "src": "/testData/pic/20230118.png",
+            "thumbnail": "/testData/thumbnail/20230118_thumbnail.png",
+            "type": ["PL"],
+            "date": "20230118"
+        },
+        {
+            "pid": 7,
+            "src": "/testData/pic/20230227.png",
+            "thumbnail": "/testData/thumbnail/20230227_thumbnail.png",
+            "type": ["PL"],
+            "date": "20230227"
+        }
+    ]
+}

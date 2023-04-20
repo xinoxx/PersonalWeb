@@ -1,0 +1,40 @@
+{
+    "orderType": "commission",
+    "picList": [
+        {
+            "pid": 6,
+            "src": "/testData/pic/20230222.png",
+            "thumbnail": "/testData/thumbnail/20230222_thumbnail.png",
+            "type": ["COMMISSION"],
+            "date": "20230222"
+        },
+        {
+            "pid": 8,
+            "src": "/testData/pic/20230305.png",
+            "thumbnail": "/testData/thumbnail/20230305_thumbnail.png",
+            "type": ["COMMISSION"],
+            "date": "20230305"
+        },
+        {
+            "pid": 10,
+            "src": "/testData/pic/20230315.png",
+            "thumbnail": "/testData/thumbnail/20230315_thumbnail.png",
+            "type": ["COMMISSION"],
+            "date": "20230315"
+        },
+        {
+            "pid": 11,
+            "src": "/testData/pic/20230322.png",
+            "thumbnail": "/testData/thumbnail/20230322_thumbnail.png",
+            "type": ["COMMISSION"],
+            "date": "20230322"
+        },
+        {
+            "pid": 12,
+            "src": "/testData/pic/20230329.png",
+            "thumbnail": "/testData/thumbnail/20230329_thumbnail.png",
+            "type": ["COMMISSION"],
+            "date": "20230329"
+        }
+    ]
+}

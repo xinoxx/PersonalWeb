@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Head @posternOn="posternOnFun"></Head>
+    <!-- 占位符 -->
+    <router-view></router-view>
+    <Bottom></Bottom>
+    <PosternPopWindow v-if="posternIsOn" @closePostern = "closePosternFun"></PosternPopWindow>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Head from '@/components/head/Head.vue'
+import Bottom from '@/components/bottom/Bottom.vue'
+import PosternPopWindow from './components/head/PosternPopWindow.vue'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      // 从子组件Postern传来的postern状态值
+      posternIsOn: false
+    }
+    
+  },
+  methods: {
+    posternOnFun(state) {
+      if(state) {
+        this.posternIsOn = state
+      }
+    },
+    closePosternFun(state) {
+      if(!state) {
+        this.posternIsOn = state
+      }
+    }
+  },
   components: {
-    HelloWorld
+    Head,
+    Bottom,
+    PosternPopWindow,
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
 </style>

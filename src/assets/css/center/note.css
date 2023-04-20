@@ -1,0 +1,117 @@
+.note {
+    height: 85%;
+}
+
+.note .wrapper {
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+}
+
+.note .article-box {
+    width: 780px;
+    height: 576px;
+    background: url(@/assets/images/note_page.png);
+}
+
+.note .article-box .article-content {
+    margin: 30px 5px 0;
+    width: 770px;
+    height: 536px;
+    background-color: #fff;
+}
+
+.note .note-list-box {
+    position: relative;
+    width: 256px;
+    height: 568px;
+    background: url(@/assets/images/note_page.png) -784px 0;
+}
+
+.note .note-list-box .note-list {
+    position: absolute;
+    top: 40px;
+    left: -25px;
+    width: 275px;
+    height: 510px;
+    overflow: hidden auto;
+}
+
+.note .note-list-box .note-list::-webkit-scrollbar {
+    width: 5px;
+    background-color: #141414;
+}
+
+.note .note-list-box .note-list::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #fced54;
+}
+
+.note .note-list-box .note-list::-webkit-scrollbar-button {
+    display: none;
+}
+
+.note .note-list-box .note-list ul {
+    width: 260px;
+    height: 510px;
+}
+
+.note .note-list-box .note-list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.note .note-list-box .note-list ul li .choosed {
+    visibility: hidden;
+    width: 15px;
+    height: 25px;
+    background: url(@/assets/images/note_page.png) -784px -600px;
+}
+
+.note .note-list-box .note-list ul li .choosed.active {
+    visibility: visible;
+}
+
+.note .note-list-box .note-list ul li .article-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 5px 0 0 10px;
+    width: 225px;
+    height: 80px;
+    background: url(@/assets/images/note_page.png) -805px -576px;
+    cursor: pointer;
+}
+
+.note .note-list-box .note-list ul li .article-block:hover,
+.note .note-list-box .note-list ul li .article-block.active {
+    background: url(@/assets/images/note_page.png) -527px -576px;
+}
+
+.note .note-list-box .note-list ul li .article-block:hover p {
+    color: #494949;
+}
+
+.note .note-list-box .note-list ul li .article-block.active p {
+    color: #494949;
+}
+
+.article-block h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+
+.article-block p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    color: #82b4e4;
+}
